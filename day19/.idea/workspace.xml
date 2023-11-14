@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8176cab1-73f9-441e-ba6a-ebf5c421e365" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AI/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AI/1/src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AI/2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AI/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AI/2/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AI/3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AI/4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Airbnb/airbnb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../News" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/postcss.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/scene.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/scene.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.002_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.023_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.024_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_0_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_10_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_11_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_12_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_13_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_14_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_15_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_16_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_17_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_18_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_18_emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_19_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_1_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_20_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_21_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_22_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_23_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_24_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_24_emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_25_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_26_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_27_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_27_emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_28_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_29_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_2_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_30_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_31_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_32_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_33_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_34_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_35_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_36_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_39_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_3_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_40_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_4_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_4_emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_5_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_6_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_7_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_8_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_9_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_9_emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material.074_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Material_metallicRoughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/desktop_pc/textures/Tasten_2_baseColor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/planet/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/planet/scene.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/planet/scene.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/planet/textures/Clouds_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/public/planet/textures/Planet_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/backend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/carrent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/company/meta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/company/shopify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/company/starbucks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/company/tesla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/creator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/fotor_2023-3-6_9_45_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/herobg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/jobit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/docker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/figma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/javascript.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/mongodb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/nodejs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/reactjs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/redux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/tailwind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/threejs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tech/typescript.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/tripguide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/assets/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Experience.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Feedbacks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Hero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Tech.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/Works.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/canvas/Ball.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/canvas/Computers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/canvas/Earth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/canvas/Stars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/canvas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/hoc/SectionWrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/hoc/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/src/utils/motion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/tailwind.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Portfolio/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Text/my-app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../prompt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../utube" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../desktop.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2Y74LInDo2FLS76AbKiZjOkQOSZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="day19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8176cab1-73f9-441e-ba6a-ebf5c421e365" name="Changes" comment="" />
+      <created>1699863229400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699863229400</updated>
+      <workItem from="1699863239448" duration="1139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/day19$main.coverage" NAME="main Coverage Results" MODIFIED="1699864238599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
