@@ -77,18 +77,8 @@ def save_credentials():
         messagebox.showinfo(title="Oops", message="Please don't leave any fields empty!")
     else:
         # Writing Json File
-        file = open("data.json", "w")
+        file = open("password_text.json", "w")
         json.dump(json_data, file, indent=4)
-
-        # Reading Json File
-        file = open("data.json", "r")
-        data = json.load(file)
-        print(data)
-
-        # Updating Json File
-        data.update(json_data)
-        file = open("data.json", "w")
-        json.dump(data, file, indent=4)
 
         file.close()
         website_entry.delete(0, END)
