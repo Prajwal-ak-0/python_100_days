@@ -17,10 +17,11 @@
 # btn.pack()
 #
 # window.mainloop()
-import tkinter
+
 from tkinter import *
 import random
 import string
+import json
 from tkinter import messagebox
 
 window = Tk()
@@ -65,11 +66,30 @@ def save_credentials():
     mail = email_entry.get()
     password = password_entry.get()
 
+    json_data = {
+        site: {
+            "email": mail,
+            "password": password
+        }
+    }
+
     if len(site) == 0 or len(mail) == 0 or len(password) == 0:
         messagebox.showinfo(title="Oops", message="Please don't leave any fields empty!")
     else:
-        file = open("data.txt", "a")
-        file.write(f"{site}   ||   {mail}   || {password}\n")
+        # Writing Json File
+        file = open("data.json", "w")
+        json.dump(json_data, file, indent=4)
+
+        # Reading Json File
+        file = open("data.json", "r")
+        data = json.load(file)
+        print(data)
+
+        # Updating Json File
+        data.update(json_data)
+        file = open("data.json", "w")
+        json.dump(data, file, indent=4)
+
         file.close()
         website_entry.delete(0, END)
         password_entry.delete(0, END)
