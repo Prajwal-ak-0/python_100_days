@@ -1,9 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
-response = requests.get("https://www.cricbuzz.com/cricket-scores/75413/eng-vs-nz-1st-match-icc-cricket-world-cup-2023")
 
+response = requests.get("https://www.moneycontrol.com/stocksmarketsindia/")
 soup = BeautifulSoup(response.text, "html.parser")
 
-div_with_classes = soup.find('div', class_='cb-col cb-col-100 cb-min-tm cb-text-gray')
+div_with_classes = soup.find('div', class_='tbl_redtxt')
 
-print(div_with_classes.string)
+if div_with_classes:
+    print(div_with_classes.string)
+else:
+    print("Div with class 'tbl_redtxt' not found.")
