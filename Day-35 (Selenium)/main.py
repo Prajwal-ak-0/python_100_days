@@ -133,62 +133,140 @@ import pandas
 # driver.quit()
 
 
-# from twilio.rest import Client
+from twilio.rest import Client
+import pandas as pd
+
+# Twilio credentials
+account_sid = 'AC125ef8a4d23928f3ba8272dd134e7820'
+auth_token = '6ce89e2f0c701732cc6fc6ec23e9e1f7'
+twilio_client = Client(account_sid, auth_token)
+
+# Read the CSV file
+df = pd.read_csv("nift.csv")
+
+# Extract relevant information
+message_body = "NIFTY 50 Information:\n\n" + df.to_string(index=False)
+
+# Twilio message details
+from_number = '+12512410520'
+to_number = '+918310260149'
+
+# Send the entire message in one go
+message = twilio_client.messages.create(
+    body=message_body,
+    from_=from_number,
+    to=to_number
+)
+
+print("Message SID:", message.sid)
+
+
+
+
+
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+#
+# driver = webdriver.Chrome()
+# url = "https://www.wikipedia.org/"
+#
+# driver.get(url)
+#
+# # Find the element using the class name
+# search_field = driver.find_element(By.ID, "searchInput")
+#
+# # Enter the search keyword and submit
+# search_field.send_keys("FIFA World Cup")
+# search_field.submit()
+#
+# # Find the element using the class name
+# # the div has this class name : mw-content-ltr mw-parser-output, I want you extract all the <p> tags from this div
+# search_results = driver.find_element(By.CLASS_NAME, "mw-content-ltr.mw-parser-output")
+#
+# # Extract all the paragraphs
+# results = search_results.find_elements(By.TAG_NAME, "p")
+#
+# # Print the text from all the paragraphs
+# for result in results:
+#     print(result.text)
+#
+# # Close the WebDriver
+#
+# driver.quit()
+
+
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+#
+# # Assuming you have a WebDriver set up (e.g., ChromeDriver)
+# driver = webdriver.Chrome()
+#
+# # Your HTML snippet
+# html_snippet = '<div class="u-lineHeightBase postItem"><a href="https://towardsdatascience.com/musicgen-reimagined-metas-under-the-radar-advances-in-ai-music-36c1adfd13b7?source=collection_home---4------0-----------------------" data-action="open-post" data-action-value="https://towardsdatascience.com/musicgen-reimagined-metas-under-the-radar-advances-in-ai-music-36c1adfd13b7?source=collection_home---4------0-----------------------" class="u-block u-xs-height170 u-width600 u-height272  u-backgroundSizeCover u-backgroundOriginBorderBox u-backgroundColorGrayLight u-borderLighter" style="background-image: url(&quot;https://cdn-images-1.medium.com/max/600/1*4m-yjG8mUfJSzpSc7FSO8g.png&quot;); background-position: 50% 50% !important;"><span class="u-textScreenReader">MusicGen Reimagined: Meta’s Under-the-Radar Advances in AI Music</span></a></div>'
+#
+# # Parse the HTML snippet
+# driver.get("data:text/html;charset=utf-8,{html}".format(html=html_snippet))
+#
+# # Find the image element and extract the image link
+# image_element = driver.find_element(By.CSS_SELECTOR, 'div.u-lineHeightBase a.u-block')
+# image_link = image_element.value_of_css_property('background-image')
+# image_link = image_link.replace('url("', '').replace('")', '')
+#
+# print("Image Link:", image_link)
+#
+# # Close the WebDriver
+# driver.quit()
+
+
+
+
+
+# import time
 # import pandas as pd
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
 #
-# # Twilio credentials
-# account_sid = 'AC125ef8a4d23928f3ba8272dd134e7820'
-# auth_token = '6ce89e2f0c701732cc6fc6ec23e9e1f7'
-# twilio_client = Client(account_sid, auth_token)
+# # Set up the WebDriver (assuming you have ChromeDriver installed)
+# driver = webdriver.Chrome()
 #
-# # Read the CSV file
-# df = pd.read_csv("ipo.csv")
+# # Open the URL
+# url = "https://www.5paisa.com/share-market-today"
+# driver.get(url)
 #
-# # Extract relevant information
-# message_body = "IPO Information:\n\n" + df.to_string(index=False)
+# # Function to extract data
+# def extract_data():
+#     data = []
+#     company_info_list = driver.find_elements(By.CSS_SELECTOR, 'div.stock__scraldata div.expand')
+#     for company_info in company_info_list:
+#         company_name = company_info.find_element(By.XPATH, 'ul/li[1]/a').text
+#         market_price = company_info.find_element(By.XPATH, 'ul/li[2]').text
+#         market_cap = company_info.find_element(By.XPATH, 'ul/li[3]').text
+#         week_high = company_info.find_element(By.XPATH, 'ul/li[4]').text
 #
-# # Twilio message details
-# from_number = '+12512410520'
-# to_number = '+918310260149'
+#         data.append({
+#             "Company Name": company_name,
+#             "Market Price": market_price,
+#             "Market Cap": market_cap,
+#             "52 Week High": week_high
+#         })
+#     return data
 #
-# # Send SMS
-# message = twilio_client.messages.create(
-#     body=message_body,
-#     from_=from_number,
-#     to=to_number
-# )
+# # Click on the "Load More" button twice
+# for _ in range(2):
+#     load_more_button = driver.find_element(By.XPATH, '//*[@id="load"]')
+#     driver.execute_script("arguments[0].click();", load_more_button)
+#     time.sleep(2)  # Wait for the content to load
 #
-# print("Message SID:", message.sid)
-
-
-
-
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-
-driver = webdriver.Chrome()
-url = "https://www.wikipedia.org/"
-
-driver.get(url)
-
-# Find the element using the class name
-search_field = driver.find_element(By.ID, "searchInput")
-
-# Enter the search keyword and submit
-search_field.send_keys("FIFA World Cup")
-search_field.submit()
-
-# Find the element using the class name
-# the div has this class name : mw-content-ltr mw-parser-output, I want you extract all the <p> tags from this div
-search_results = driver.find_element(By.CLASS_NAME, "mw-content-ltr.mw-parser-output")
-
-# Extract all the paragraphs
-results = search_results.find_elements(By.TAG_NAME, "p")
-
-# Print the text from all the paragraphs
-for result in results:
-    print(result.text)
-
-# Close the WebDriver
-
-driver.quit()
+# # Extract data after clicking twice
+# final_data = extract_data()
+#
+# # Create a DataFrame from the scraped data
+# df = pd.DataFrame(final_data)
+#
+# # Save the DataFrame to a CSV file
+# df.to_csv("nift.csv", index=False)
+#
+# # Close the WebDriver
+# driver.quit()
